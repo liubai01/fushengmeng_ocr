@@ -23,8 +23,9 @@ Abstract: The automated OCR system for [ninjia never die 3](http://www.pandadast
 ### 深渊信息自动生成
 
 1. 将你的目录切换至当前库，文件的输入在`data\8_30`
-2. 打开控制台，运行`python 8_30.py`.
-3. OCR结果在`data\8_30\result`，表格结果在`8_30.csv`
+2. 修改`fushengmeng_ocr\cfg\basic_config.py`中的百度APP_ID, SECRET_KEY等参数（获得方法请上[百度云AI控制台](https://console.bce.baidu.com/ai/#/ai/ocr/overview/index)，文字识别项查询，和我认识的可以直接问我要）。
+3. 打开控制台，运行`python 8_30.py`.
+4. OCR结果在`data\8_30\result`，表格结果在`8_30.csv`
 
 ## Todo
 
